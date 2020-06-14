@@ -9,7 +9,6 @@ const MoviesPage = ({ match, movies }) => (
     <MoviesList movies={movies} />
     <Route path={`${match.url}/:movieId`} component={MovieShow}/>
   </div>
-  </div>
 )
 
 export default MoviesPage
