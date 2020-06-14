@@ -1,7 +1,6 @@
 import React from 'react';
  
-const MovieShow = props => {
- 
+const MovieShow = ({match, movies}) => {
   return (
     <div>
       <h3>Movies Show Component!</h3>
